@@ -1,0 +1,214 @@
+@-webkit-keyframes title {
+
+  from {opacity: 0%;
+     }
+  to {opacity: 100%;
+    }
+}
+
+@-webkit-keyframes tapeone {
+
+    from {left: -30%
+        }
+    to {left: 0% 
+        }
+}
+
+@-webkit-keyframes tapetwo {
+
+    from {right: -30%
+        }
+    to {right: 0% 
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.poster {
+    width: 100%;
+    height: 100%;
+}
+
+.t1  {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 28%;
+    display: none;
+}
+
+.t2 {
+    position: absolute;
+    width: 10%;
+    height: 105%;
+    top: -5.1%;
+    left: 37.1%;
+    display: none;
+    
+}
+
+.t3 {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 46%;
+    display: none;
+}
+
+.t4 {
+    position: absolute;
+    width: 10%;
+    height: 101%;
+    top: -0.5%;
+    left: 54.7%;
+    display: none;
+}
+
+.t5 {
+    position: absolute;
+    width: 10%;
+    height: 102%;
+    top: -1%;
+    left: 63%;
+    display: none;
+}
+
+.t6 {
+    position: absolute;
+    width: 26%;
+    top: 25%;
+    left: 0%;
+    animation-name: tapeone;
+    animation-duration: 1s;
+}
+
+.t7 {
+    position: absolute;
+    width: 26%;
+    top: 25%;
+    right: 0%;
+    animation-name: tapetwo;
+    animation-duration: 1s;
+}
+
+.b1 {
+    position: absolute;
+    width: 17%;
+    height: 28%;
+    top: 29%;
+    left: 32%;
+}
+
+.b2 {
+    position: absolute;
+    width: 15%;
+    height: 40%;
+    top: 55%;
+    left: 29%;
+}
+
+.b3 {
+    position: absolute;
+    width: 9%;
+    height: 19%;
+    top: 44%;
+    left: 50.1%;
+}
+
+.b4 {
+    position: absolute;
+    width: 12%;
+    height: 20.5%;
+    top: 33%;
+    left: 59.3%;
+}
+
+.b5 {
+    position: absolute;
+    width: 12%;
+    height: 32%;
+    top: 60%;
+    left: 57%;
+}
+
+.b6 {
+    position: absolute;
+    width: 6%;
+    height: 9%;
+    top: 33%;
+    left: 46%;
+
+}
+
+.b7 {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    top: 56%;
+    left: 35%;
+}
+
+.d1 {
+    position: absolute;
+    width: 44.2%;
+    height: 83%;
+    top: 8%;
+    left: 28.2%;
+    display: none;
+}
+
+.love {
+   position: absolute;
+    width: 27%;
+    top: 5.5%;
+    left: 36%;
+    opacity: 0%;
+  animation-name: title;
+  animation-delay: 0.5s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.g1 {
+    position: absolute;
+    width: 26%;
+    top: 26%;
+    left: 0%;
+}
+
+.s1 {
+    position: absolute;
+    width: 25%;
+    top: 33%;
+    left: 1%;
+}
+
+.s2 {
+    position: absolute;
+    width: 25%;
+    top: 33%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
